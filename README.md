@@ -193,16 +193,6 @@ python train.py \
     --exp-tag rabbit_dronergbt
 ```
 
-### 4. Testing
-
-```bash
-python test.py \
-    --dataset RGBTCC \
-    --data-dir ./data/RGBT-CC \
-    --checkpoint ./checkpoints/rabbit_rgbtcc.pth \
-    --device 0
-```
-
 ---
 
 ## License
